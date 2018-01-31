@@ -1,0 +1,6 @@
+.tabs{
+  height: inherit;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}

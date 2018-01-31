@@ -1,0 +1,26 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+.app-footer{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  right: 0;
+  left: 0;
+  height: 50px;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+app-footer-tabs{
+  flex: 1;
+  background: $primary-color;
+  height: inherit;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
